@@ -1,0 +1,557 @@
+62 //numero de praças
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlinesAGRA
+               # Replace Windows newlines with Unix newlines-8.6094 41.177231
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.6096702714 41.1771457135
+               # Replace Windows newlines with Unix newlines-8.60940886312 41.177208622
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.60923597217 41.1773039453
+               # Replace Windows newlines with Unix newlines-8.61014948509 41.1770918315
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlinesALAMEDA
+               # Replace Windows newlines with Unix newlines-8.591314 41.156212
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.59106440506 41.15618964
+               # Replace Windows newlines with Unix newlines-8.59130109126 41.1561833503
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.59112130035 41.1565397779
+               # Replace Windows newlines with Unix newlines-8.59081604936 41.1562959675
+               # Replace Windows newlines with Unix newlines3
+               # Replace Windows newlines with Unix newlinesALDOAR
+               # Replace Windows newlines with Unix newlines-8.665612 41.170727
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.66587593213 41.1705249231
+               # Replace Windows newlines with Unix newlines-8.66560724118 41.1707187538
+               # Replace Windows newlines with Unix newlines4
+               # Replace Windows newlines with Unix newlines-8.66557606365 41.1708102965
+               # Replace Windows newlines with Unix newlines-8.6657392444 41.1703285489
+               # Replace Windows newlines with Unix newlines-8.66627352324 41.1703176235
+               # Replace Windows newlines with Unix newlines-8.66618750675 41.1702861258
+               # Replace Windows newlines with Unix newlines4
+               # Replace Windows newlines with Unix newlinesALFÂNDEGA
+               # Replace Windows newlines with Unix newlines-8.62192760444 41.1438681984
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.62180322015 41.1437639911
+               # Replace Windows newlines with Unix newlines-8.6217973628 41.1438852913
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.62150801057 41.1435588324
+               # Replace Windows newlines with Unix newlines-8.62217041126 41.143802018
+               # Replace Windows newlines with Unix newlines5
+               # Replace Windows newlines with Unix newlinesAMIAL
+               # Replace Windows newlines with Unix newlines-8.613148 41.183434
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.61272586967 41.1835097223
+               # Replace Windows newlines with Unix newlines-8.61320311019 41.1834285021
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.61226616071 41.1835977266
+               # Replace Windows newlines with Unix newlines6
+               # Replace Windows newlines with Unix newlinesAREOSA
+               # Replace Windows newlines with Unix newlines-8.58252119232 41.1806218258
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.58278289063 41.1808043369
+               # Replace Windows newlines with Unix newlines-8.58238038746 41.1806101451
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.583174352 41.1810114612
+               # Replace Windows newlines with Unix newlines7
+               # Replace Windows newlines with Unix newlinesAV. BOAVISTA
+               # Replace Windows newlines with Unix newlines-8.639857 41.159821
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.63902274994 41.1596532715
+               # Replace Windows newlines with Unix newlines-8.63986474479 41.1597939882
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.63856128367 41.159557253
+               # Replace Windows newlines with Unix newlines8
+               # Replace Windows newlines with Unix newlinesAZEVEDO
+               # Replace Windows newlines with Unix newlines-8.568305 41.151657
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.56819539682 41.1515920975
+               # Replace Windows newlines with Unix newlines-8.56841684643 41.1516715465
+               # Replace Windows newlines with Unix newlines3
+               # Replace Windows newlines with Unix newlines-8.5677296456 41.1515080559
+               # Replace Windows newlines with Unix newlines-8.56865953145 41.1515654944
+               # Replace Windows newlines with Unix newlines-8.56858276179 41.1516991356
+               # Replace Windows newlines with Unix newlines9
+               # Replace Windows newlines with Unix newlinesBATALHA
+               # Replace Windows newlines with Unix newlines-8.606519 41.144569
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.60571961615 41.1442525263
+               # Replace Windows newlines with Unix newlines-8.6065917189 41.144544147
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.60525437587 41.1441527083
+               # Replace Windows newlines with Unix newlines10
+               # Replace Windows newlines with Unix newlinesBOLHÃO
+               # Replace Windows newlines with Unix newlines-8.607056 41.150383
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.60690977259 41.1507106526
+               # Replace Windows newlines with Unix newlines-8.60711412779 41.1503273352
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.60674875842 41.1509934851
+               # Replace Windows newlines with Unix newlines-8.60704041723 41.1503612958
+               # Replace Windows newlines with Unix newlines11
+               # Replace Windows newlines with Unix newlinesBOM PASTOR
+               # Replace Windows newlines with Unix newlines-8.613305 41.166874
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.61326686188 41.1670339026
+               # Replace Windows newlines with Unix newlines-8.61334423528 41.166855612
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.61309007858 41.1673375997
+               # Replace Windows newlines with Unix newlines-8.61315331996 41.1667359468
+               # Replace Windows newlines with Unix newlines12
+               # Replace Windows newlines with Unix newlinesBOM SUCESSO
+               # Replace Windows newlines with Unix newlines-8.630649 41.154976
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.63046626628 41.1551197292
+               # Replace Windows newlines with Unix newlines-8.63076873073 41.1548793056
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.63011084143 41.155366143
+               # Replace Windows newlines with Unix newlines-8.63041684652 41.1553689182
+               # Replace Windows newlines with Unix newlines13
+               # Replace Windows newlines with Unix newlinesBRASÍLIA
+               # Replace Windows newlines with Unix newlines-8.62813 41.157318
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.6284679801 41.1570891314
+               # Replace Windows newlines with Unix newlines-8.62800392332 41.15755308
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.62842063957 41.1568540276
+               # Replace Windows newlines with Unix newlines-8.62894557248 41.1569909363
+               # Replace Windows newlines with Unix newlines14
+               # Replace Windows newlines with Unix newlinesCÂMARA
+               # Replace Windows newlines with Unix newlines-8.61109581772 41.1496486941
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.6110708703 41.1497021913
+               # Replace Windows newlines with Unix newlines-8.61112992515 41.1494579327
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.61120355207 41.149908072
+               # Replace Windows newlines with Unix newlines15
+               # Replace Windows newlines with Unix newlinesCAMPANHÃ
+               # Replace Windows newlines with Unix newlines-8.58559809129 41.1484190738
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.58567505632 41.148284372
+               # Replace Windows newlines with Unix newlines-8.58559782306 41.1486245036
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.58590649666 41.1485142173
+               # Replace Windows newlines with Unix newlines16
+               # Replace Windows newlines with Unix newlinesCAMPISMO
+               # Replace Windows newlines with Unix newlines-8.627699 41.175255
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.62779145139 41.1754722349
+               # Replace Windows newlines with Unix newlines-8.62773153851 41.1752523904
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.62765280812 41.1751256595
+               # Replace Windows newlines with Unix newlines-8.62783126454 41.1758329965
+               # Replace Windows newlines with Unix newlines17
+               # Replace Windows newlines with Unix newlinesCARCEREIRA
+               # Replace Windows newlines with Unix newlines-8.632285 41.164478
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.63228595529 41.1644515812
+               # Replace Windows newlines with Unix newlines-8.63235898694 41.1644724891
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.63251360713 41.1641042356
+               # Replace Windows newlines with Unix newlines-8.63189877306 41.1645488431
+               # Replace Windows newlines with Unix newlines18
+               # Replace Windows newlines with Unix newlinesCARREGAL
+               # Replace Windows newlines with Unix newlines-8.61981 41.148048
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.61960347647 41.1483209068
+               # Replace Windows newlines with Unix newlines-8.61985821663 41.1480050242
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.61932005574 41.1485997165
+               # Replace Windows newlines with Unix newlines19
+               # Replace Windows newlines with Unix newlinesCARVALHEIRAS
+               # Replace Windows newlines with Unix newlines-8.605636 41.153618
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.60539978065 41.1535903929
+               # Replace Windows newlines with Unix newlines-8.60570866799 41.1535971415
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.60492420106 41.1535355509
+               # Replace Windows newlines with Unix newlines20
+               # Replace Windows newlines with Unix newlinesCARVALHIDO
+               # Replace Windows newlines with Unix newlines-8.627138 41.166965
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.62677872999 41.1669278236
+               # Replace Windows newlines with Unix newlines-8.6271770151 41.1669345529
+               # Replace Windows newlines with Unix newlines4
+               # Replace Windows newlines with Unix newlines-8.62644885013 41.1668505643
+               # Replace Windows newlines with Unix newlines-8.62648813005 41.1668843756
+               # Replace Windows newlines with Unix newlines-8.62629961425 41.1669480948
+               # Replace Windows newlines with Unix newlines-8.62645840567 41.167046454
+               # Replace Windows newlines with Unix newlines21
+               # Replace Windows newlines with Unix newlinesCASA DA MUSICA
+               # Replace Windows newlines with Unix newlines-8.6299 41.160995
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.63030200186 41.1614165204
+               # Replace Windows newlines with Unix newlines-8.62989052032 41.1609618348
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.63066287855 41.1613244289
+               # Replace Windows newlines with Unix newlines-8.62998851514 41.1616351189
+               # Replace Windows newlines with Unix newlines22
+               # Replace Windows newlines with Unix newlinesCASTELO DO QUEIJO
+               # Replace Windows newlines with Unix newlines-8.689337 41.168091
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.68917996027 41.168317889
+               # Replace Windows newlines with Unix newlines-8.68937651402 41.1680202453
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.68878016523 41.1684878111
+               # Replace Windows newlines with Unix newlines23
+               # Replace Windows newlines with Unix newlinesCLÉRIGOS
+               # Replace Windows newlines with Unix newlines-8.612584 41.146027
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.61257471887 41.1460158298
+               # Replace Windows newlines with Unix newlines-8.61315083295 41.1459538641
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.6130416184 41.1459309503
+               # Replace Windows newlines with Unix newlines24
+               # Replace Windows newlines with Unix newlinesCONDE FERREIRA
+               # Replace Windows newlines with Unix newlines-8.589206 41.169708
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.58934789723 41.1695302186
+               # Replace Windows newlines with Unix newlines-8.58922606369 41.169692478
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.58929333399 41.1698147239
+               # Replace Windows newlines with Unix newlines-8.58923770219 41.1691866205
+               # Replace Windows newlines with Unix newlines25
+               # Replace Windows newlines with Unix newlinesCORDOARIA
+               # Replace Windows newlines with Unix newlines-8.617557 41.146103
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.61763808774 41.146299872
+               # Replace Windows newlines with Unix newlines-8.6175759846 41.1460551483
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.61777775133 41.1466459025
+               # Replace Windows newlines with Unix newlines-8.61807297105 41.1463238213
+               # Replace Windows newlines with Unix newlines26
+               # Replace Windows newlines with Unix newlinesCORUJEIRA
+               # Replace Windows newlines with Unix newlines-8.580306 41.159431
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.57977594756 41.1595606398
+               # Replace Windows newlines with Unix newlines-8.58035340937 41.1594009459
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.57936759338 41.1597423337
+               # Replace Windows newlines with Unix newlines27
+               # Replace Windows newlines with Unix newlinesD. JOÃO I
+               # Replace Windows newlines with Unix newlines-8.60868 41.147858
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.60924112742 41.1480321319
+               # Replace Windows newlines with Unix newlines-8.60868998731 41.1478341005
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.60944380621 41.1483215943
+               # Replace Windows newlines with Unix newlines28
+               # Replace Windows newlines with Unix newlinesDRAGÃO
+               # Replace Windows newlines with Unix newlines-8.5843 41.163139
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.58404677278 41.1632224305
+               # Replace Windows newlines with Unix newlines-8.58436527955 41.1631196661
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.58359798157 41.1633452363
+               # Replace Windows newlines with Unix newlines29
+               # Replace Windows newlines with Unix newlinesFRANCOS
+               # Replace Windows newlines with Unix newlines-8.638465 41.170849
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.63866558117 41.1710190954
+               # Replace Windows newlines with Unix newlines-8.63846912944 41.1708189581
+               # Replace Windows newlines with Unix newlines3
+               # Replace Windows newlines with Unix newlines-8.63890820768 41.1713307135
+               # Replace Windows newlines with Unix newlines-8.63835814737 41.1707417373
+               # Replace Windows newlines with Unix newlines-8.63834874487 41.1707526453
+               # Replace Windows newlines with Unix newlines30
+               # Replace Windows newlines with Unix newlinesGALIZA
+               # Replace Windows newlines with Unix newlines-8.627248 41.151951
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.62772910625 41.1518085886
+               # Replace Windows newlines with Unix newlines-8.62722549616 41.1519453901
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.6281911387 41.1517100343
+               # Replace Windows newlines with Unix newlines31
+               # Replace Windows newlines with Unix newlinesH. MAGALHÃES LEMOS
+               # Replace Windows newlines with Unix newlines-8.663713 41.177204
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.66396032334 41.1769535175
+               # Replace Windows newlines with Unix newlines-8.66372771751 41.1771850934
+               # Replace Windows newlines with Unix newlines3
+               # Replace Windows newlines with Unix newlines-8.66425552919 41.1766860598
+               # Replace Windows newlines with Unix newlines-8.66429469563 41.1766917449
+               # Replace Windows newlines with Unix newlines-8.66373305427 41.1772744454
+               # Replace Windows newlines with Unix newlines32
+               # Replace Windows newlines with Unix newlinesH. MILITAR
+               # Replace Windows newlines with Unix newlines-8.62761 41.15778
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.62704415185 41.1576623087
+               # Replace Windows newlines with Unix newlines-8.62763829403 41.1577650405
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.62658759269 41.1575499345
+               # Replace Windows newlines with Unix newlines33
+               # Replace Windows newlines with Unix newlinesH. SÃO JOÃO
+               # Replace Windows newlines with Unix newlines-8.600077 41.182758
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.60013058422 41.1827508857
+               # Replace Windows newlines with Unix newlines-8.59916133053 41.1824823792
+               # Replace Windows newlines with Unix newlines0
+               # Replace Windows newlines with Unix newlines34
+               # Replace Windows newlines with Unix newlinesINFANTE
+               # Replace Windows newlines with Unix newlines-8.615491 41.140678
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.6159521911 41.1405168841
+               # Replace Windows newlines with Unix newlines-8.61549376318 41.1406732485
+               # Replace Windows newlines with Unix newlines3
+               # Replace Windows newlines with Unix newlines-8.61592494505 41.1404131322
+               # Replace Windows newlines with Unix newlines-8.61644559312 41.1405391077
+               # Replace Windows newlines with Unix newlines-8.61554185173 41.1407165997
+               # Replace Windows newlines with Unix newlines35
+               # Replace Windows newlines with Unix newlinesLAGO
+               # Replace Windows newlines with Unix newlines-8.649555 41.167339
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.64952681771 41.167431809
+               # Replace Windows newlines with Unix newlines-8.64958708032 41.1672968202
+               # Replace Windows newlines with Unix newlines3
+               # Replace Windows newlines with Unix newlines-8.64962560368 41.1670768889
+               # Replace Windows newlines with Unix newlines-8.64982109849 41.1675938126
+               # Replace Windows newlines with Unix newlines-8.64914243384 41.1673002539
+               # Replace Windows newlines with Unix newlines36
+               # Replace Windows newlines with Unix newlinesLORDELO
+               # Replace Windows newlines with Unix newlines-8.649378 41.154369
+               # Replace Windows newlines with Unix newlines3
+               # Replace Windows newlines with Unix newlines-8.64907357792 41.1546571224
+               # Replace Windows newlines with Unix newlines-8.64920561858 41.1543638732
+               # Replace Windows newlines with Unix newlines-8.64942102334 41.1543356711
+               # Replace Windows newlines with Unix newlines4
+               # Replace Windows newlines with Unix newlines-8.64901085463 41.1550054121
+               # Replace Windows newlines with Unix newlines-8.64877912423 41.1549233832
+               # Replace Windows newlines with Unix newlines-8.64873189318 41.1543088166
+               # Replace Windows newlines with Unix newlines-8.64904207552 41.1546834277
+               # Replace Windows newlines with Unix newlines37
+               # Replace Windows newlines with Unix newlinesMARECHAL
+               # Replace Windows newlines with Unix newlines-8.656797 41.161472
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.6575467588 41.1610810603
+               # Replace Windows newlines with Unix newlines-8.65680978705 41.1614659774
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.65797416674 41.1609142175
+               # Replace Windows newlines with Unix newlines38
+               # Replace Windows newlines with Unix newlinesMARQUÊS
+               # Replace Windows newlines with Unix newlines-8.60400866631 41.1611916227
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.60424608207 41.1607148883
+               # Replace Windows newlines with Unix newlines-8.60399933693 41.1611919971
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.60458436166 41.1604798504
+               # Replace Windows newlines with Unix newlines-8.60441456517 41.1603781367
+               # Replace Windows newlines with Unix newlines39
+               # Replace Windows newlines with Unix newlinesMATERNIDADE
+               # Replace Windows newlines with Unix newlines-8.622968 41.150818
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.62279999766 41.1508914639
+               # Replace Windows newlines with Unix newlines-8.62304396975 41.1507721478
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.6223973802 41.1510859672
+               # Replace Windows newlines with Unix newlines40
+               # Replace Windows newlines with Unix newlinesMERCADO DA FOZ
+               # Replace Windows newlines with Unix newlines-8.674059 41.153896
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.6740067792 41.1542337417
+               # Replace Windows newlines with Unix newlines-8.67408563613 41.1538556121
+               # Replace Windows newlines with Unix newlines3
+               # Replace Windows newlines with Unix newlines-8.67398594079 41.1544309701
+               # Replace Windows newlines with Unix newlines-8.67379174883 41.1545483894
+               # Replace Windows newlines with Unix newlines-8.67402473895 41.1538710179
+               # Replace Windows newlines with Unix newlines41
+               # Replace Windows newlines with Unix newlinesNEVOGILDE
+               # Replace Windows newlines with Unix newlines-8.676064 41.163284
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.67598304213 41.163066654
+               # Replace Windows newlines with Unix newlines-8.67609865636 41.163289866
+               # Replace Windows newlines with Unix newlines3
+               # Replace Windows newlines with Unix newlines-8.67628312292 41.1627797664
+               # Replace Windows newlines with Unix newlines-8.67576807569 41.1629135133
+               # Replace Windows newlines with Unix newlines-8.67619751189 41.1633996426
+               # Replace Windows newlines with Unix newlines42
+               # Replace Windows newlines with Unix newlinesNOVE DE ABRIL
+               # Replace Windows newlines with Unix newlines-8.612265 41.172794
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.61178358386 41.1727485684
+               # Replace Windows newlines with Unix newlines-8.61226155022 41.1727626959
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.61131048459 41.1726839219
+               # Replace Windows newlines with Unix newlines43
+               # Replace Windows newlines with Unix newlinesOURO
+               # Replace Windows newlines with Unix newlines-8.648735 41.148495
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.64888643487 41.1486110328
+               # Replace Windows newlines with Unix newlines-8.64876843868 41.148497838
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.64846852505 41.1483878685
+               # Replace Windows newlines with Unix newlines-8.64902956306 41.1489646957
+               # Replace Windows newlines with Unix newlines44
+               # Replace Windows newlines with Unix newlinesPALÁCIO
+               # Replace Windows newlines with Unix newlines-8.625676 41.149319
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.62579395683 41.1495821972
+               # Replace Windows newlines with Unix newlines-8.62573840492 41.1493144814
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.62575120869 41.1499526005
+               # Replace Windows newlines with Unix newlines-8.62559328394 41.1492424886
+               # Replace Windows newlines with Unix newlines45
+               # Replace Windows newlines with Unix newlinesPASSEIO ALEGRE
+               # Replace Windows newlines with Unix newlines-8.67272 41.14888
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.67272296726 41.1488894879
+               # Replace Windows newlines with Unix newlines-8.67275538689 41.1487582717
+               # Replace Windows newlines with Unix newlines4
+               # Replace Windows newlines with Unix newlines-8.67289337197 41.1485428234
+               # Replace Windows newlines with Unix newlines-8.67302344556 41.1486107873
+               # Replace Windows newlines with Unix newlines-8.67301808307 41.1491285298
+               # Replace Windows newlines with Unix newlines-8.67254733101 41.1490647709
+               # Replace Windows newlines with Unix newlines46
+               # Replace Windows newlines with Unix newlinesPEREIRA DE MELO
+               # Replace Windows newlines with Unix newlines-8.648764 41.178627
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.64853556975 41.1786451618
+               # Replace Windows newlines with Unix newlines-8.64890585393 41.1785804658
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.6480623925 41.1787051488
+               # Replace Windows newlines with Unix newlines-8.64898996524 41.1785291114
+               # Replace Windows newlines with Unix newlines47
+               # Replace Windows newlines with Unix newlinesPEREIRÓ
+               # Replace Windows newlines with Unix newlines-8.654729 41.173561
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.65449600832 41.1738135714
+               # Replace Windows newlines with Unix newlines-8.65472421251 41.1735544048
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.65435395087 41.1740836568
+               # Replace Windows newlines with Unix newlines-8.65421361843 41.1741051893
+               # Replace Windows newlines with Unix newlines48
+               # Replace Windows newlines with Unix newlinesPINTO DE AZEVEDO
+               # Replace Windows newlines with Unix newlines-8.64473 41.171074
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.64505015387 41.171262373
+               # Replace Windows newlines with Unix newlines-8.6447596878 41.1710437255
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.64531223876 41.1715703
+               # Replace Windows newlines with Unix newlines-8.64466259944 41.1710418427
+               # Replace Windows newlines with Unix newlines49
+               # Replace Windows newlines with Unix newlinesPÓLO UNIVERSITÁRIO
+               # Replace Windows newlines with Unix newlines-8.602866 41.179684
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.60253898017 41.1795510913
+               # Replace Windows newlines with Unix newlines-8.60288190582 41.1796504403
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.60211796022 41.1793716394
+               # Replace Windows newlines with Unix newlines50
+               # Replace Windows newlines with Unix newlinesPRELADA
+               # Replace Windows newlines with Unix newlines-8.628672 41.169811
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.62890245375 41.169838306
+               # Replace Windows newlines with Unix newlines-8.62869184602 41.1697923494
+               # Replace Windows newlines with Unix newlines3
+               # Replace Windows newlines with Unix newlines-8.62859436493 41.1699760854
+               # Replace Windows newlines with Unix newlines-8.62843370658 41.1697582853
+               # Replace Windows newlines with Unix newlines-8.62934064923 41.1699869866
+               # Replace Windows newlines with Unix newlines51
+               # Replace Windows newlines with Unix newlinesRAMADA ALTA
+               # Replace Windows newlines with Unix newlines-8.621167 41.160931
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.62113354288 41.161348635
+               # Replace Windows newlines with Unix newlines-8.62119122469 41.160937305
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.62101376816 41.161700493
+               # Replace Windows newlines with Unix newlines52
+               # Replace Windows newlines with Unix newlinesRÉPUBLICA
+               # Replace Windows newlines with Unix newlines-8.613209 41.154385
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.61321698848 41.1549650972
+               # Replace Windows newlines with Unix newlines-8.61323280707 41.1543529023
+               # Replace Windows newlines with Unix newlines3
+               # Replace Windows newlines with Unix newlines-8.61331462256 41.1553259129
+               # Replace Windows newlines with Unix newlines-8.61322690626 41.1551921373
+               # Replace Windows newlines with Unix newlines-8.61290200692 41.155113976
+               # Replace Windows newlines with Unix newlines53
+               # Replace Windows newlines with Unix newlinesRIBEIRA
+               # Replace Windows newlines with Unix newlines-8.613119 41.14072
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.61307560924 41.1405672138
+               # Replace Windows newlines with Unix newlines-8.61311459095 41.1407558101
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.61317328736 41.1409174072
+               # Replace Windows newlines with Unix newlines54
+               # Replace Windows newlines with Unix newlinesROTUNDA
+               # Replace Windows newlines with Unix newlines-8.630265 41.15744
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.63037495014 41.1580038805
+               # Replace Windows newlines with Unix newlines-8.63021567728 41.157384309
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.63067778213 41.1581422254
+               # Replace Windows newlines with Unix newlines-8.63020523849 41.1583462396
+               # Replace Windows newlines with Unix newlines55
+               # Replace Windows newlines with Unix newlinesSÃO ROQUE
+               # Replace Windows newlines with Unix newlines-8.568867 41.166367
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.56942396942 41.1662340449
+               # Replace Windows newlines with Unix newlines-8.56886949786 41.1663414869
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.56986931967 41.1660969101
+               # Replace Windows newlines with Unix newlines56
+               # Replace Windows newlines with Unix newlinesSÁ CARNEIRO
+               # Replace Windows newlines with Unix newlines-8.591223 41.162708
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.59180656031 41.1629211886
+               # Replace Windows newlines with Unix newlines-8.59123624805 41.162679872
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.59224187368 41.1630246839
+               # Replace Windows newlines with Unix newlines57
+               # Replace Windows newlines with Unix newlinesSÃO BENTO
+               # Replace Windows newlines with Unix newlines-8.61073 41.14542
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.61070701502 41.1457188058
+               # Replace Windows newlines with Unix newlines-8.61075685749 41.1453218916
+               # Replace Windows newlines with Unix newlines4
+               # Replace Windows newlines with Unix newlines-8.61061260123 41.1458946225
+               # Replace Windows newlines with Unix newlines-8.61064854115 41.1459700341
+               # Replace Windows newlines with Unix newlines-8.61087314885 41.1459985444
+               # Replace Windows newlines with Unix newlines-8.61070381777 41.1460021345
+               # Replace Windows newlines with Unix newlines58
+               # Replace Windows newlines with Unix newlinesTERÇO
+               # Replace Windows newlines with Unix newlines-8.604752 41.161106
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.60452832992 41.1615915925
+               # Replace Windows newlines with Unix newlines-8.60476797497 41.1611118108
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.60433029658 41.1618653222
+               # Replace Windows newlines with Unix newlines59
+               # Replace Windows newlines with Unix newlinesTENENTE VALADIM
+               # Replace Windows newlines with Unix newlines-8.640777 41.161125
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.64103518839 41.1608671055
+               # Replace Windows newlines with Unix newlines-8.64077117612 41.1611124276
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlines-8.64137030957 41.1606075053
+               # Replace Windows newlines with Unix newlines60
+               # Replace Windows newlines with Unix newlinesTRINDADE
+               # Replace Windows newlines with Unix newlines-8.609664 41.151348
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.60984340203 41.1511237005
+               # Replace Windows newlines with Unix newlines-8.6096459657 41.1513566953
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.6099735432 41.1508040509
+               # Replace Windows newlines with Unix newlines-8.61006659136 41.1508022361
+               # Replace Windows newlines with Unix newlines61
+               # Replace Windows newlines with Unix newlinesVINTE E QUATRO DE AGOSTO
+               # Replace Windows newlines with Unix newlines-8.599748 41.14941
+               # Replace Windows newlines with Unix newlines3
+               # Replace Windows newlines with Unix newlines-8.60030852546 41.1493101131
+               # Replace Windows newlines with Unix newlines-8.59957421258 41.1493918519
+               # Replace Windows newlines with Unix newlines-8.59925175345 41.1491418273
+               # Replace Windows newlines with Unix newlines5
+               # Replace Windows newlines with Unix newlines-8.60035206568 41.1489411572
+               # Replace Windows newlines with Unix newlines-8.60047348288 41.1493488164
+               # Replace Windows newlines with Unix newlines-8.59983514294 41.1494114796
+               # Replace Windows newlines with Unix newlines-8.59919241338 41.1496336332
+               # Replace Windows newlines with Unix newlines-8.6000565233 41.1493867847
+               # Replace Windows newlines with Unix newlines62
+               # Replace Windows newlines with Unix newlinesVISO
+               # Replace Windows newlines with Unix newlines-8.646533 41.177715
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.64655750451 41.1778737602
+               # Replace Windows newlines with Unix newlines-8.64654694049 41.1776823974
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.64672301573 41.1781185909
+               # Replace Windows newlines with Unix newlines-8.64654466341 41.1782354664
+               # Replace Windows newlines with Unix newlines

@@ -1,0 +1,14 @@
+-> converter sistema de coordenadas para WGS84
+-> usar multiline string para represnetenaeofinsdifs trajeto
+
+usar multinestring para unir varias lines quando há diferença temporal >1
+
+
+routes
+
+id_car  multiline(long lat)
+
+
+
+posturas
+id_praça nome_praça geom(long lat)
