@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <HEAD>
+        <title>TABD Grupo 10</title>
+        <meta name="viewport" content="initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="src/style.css">
+        <script src="src/jquery-1.12.3.min.js"></script>
+        <script src="src/javascript.js"></script>
+    </HEAD>
+    <body>
+        <div id="navbar">
+            <button onclick="addMarker()">fuck</button>
+        </div>
+        <div id="map"> </div>
+        <div id="infobar"> </div>
+        <script>
+            var map;
+            function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                  center: {lat: 41.157944, lng: -8.629105},
+                  zoom: 8
+                });
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=***REMOVED***&callback=initMap" async defer></script>
+    </body>
+</html>

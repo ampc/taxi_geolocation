@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#navbar{
+    background-color: darkgray;
+    width: 100%;
+    height: 35px;
+}
+
+#map {
+    background-color: whitesmoke;
+    height: calc(100vh - 135px);
+    width: 100vw;
+}
+
+#infobar{
+    background-color: darkgray;
+    width: 100%;
+    height: 100px;
+}

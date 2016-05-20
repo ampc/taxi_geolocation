@@ -1,0 +1,1 @@
+INSERT INTO paths_timestamps (id_car,timestamps) VALUES (295,'1298880072 1298880957 1298880964 1298881200');
