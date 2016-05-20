@@ -6,9 +6,36 @@ usar multinestring para unir varias lines quando há diferença temporal >1
 
 routes
 
-id_car  multiline(long lat)
+id_car  multiline(line(long, lat),line(long, lat))
 
-
+geomcollection(multline(),multine,...)
 
 posturas
 id_praça nome_praça geom(long lat)
+
+
+
+queries:
+tabelas:
+paths
+id_car geom
+
+paths_timestamps
+id_car timestamps(texto)
+
+//json
+
+SELECT ST_AsGeoJSON(geom) from paths;
+
+{"type":"GeometryCollection","geometries":[{"type":"MultiLineString","coordinates":[[[-71.160281,42.258729],[-71.160837,42.259113],[-71.161144,42.25932]]]},{"type":"MultiLineString","coordinates":[[[-71.160281,42.258729],[-71.160837,42.259113],[-71.161144,42.25932]]]}]}
+//query retorna  timestamps associadas com cada carro ordenadas pelos trajetos
+Select paths.id_car,timestamps  from paths_timestamps inner join paths on paths.id_car=paths_timestamps.id_car
+
+//INSERT DOS CAMINHOS FAOIFJSDOIAFJ CADA MULTILINE É UM TRAJETO PAULO SABES SE
+INSERT INTO paths (id_car,geom) VALUES (7,ST_GeomFromText('GEOMETRYCOLLECTION(MULTILINESTRING((-71.160281 42.258729,-71.160837 42.259113,-71.161144 42.25932)),MULTILINESTRING((-71.160281 42.258729,-71.160837 42.259113,-71.161144 42.25932)))'));
+
+//INSERT TIMESTAMPS
+INSERT INTO paths_timestamps (id_car,timestamps) VALUES (1,'timestamp');
+
+//tabela 3 merdas
+Select paths.id_car,paths.geom,timestamps  from paths_timestamps inner join paths on paths.id_car=paths_timestamps.id_car;
