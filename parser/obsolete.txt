@@ -1,0 +1,65 @@
+private static String make_query_path(int i, List<String> file) {
+      String[] words;
+      boolean start_path = false;
+
+      //INSERT INTO paths (id_car,geom) VALUES (7,ST_GeomFromText('GEOMETRYCOLLECTION(            values.0 : line to insert
+      // MULTILINESTRING((-71.160281 42.258729,-71.160837 42.259113,-71.161144 42.25932)),        path composed by 3 coordinates
+      // MULTILINESTRING((-71.160281 42.258729,-71.160837 42.259113,-71.161144 42.25932)))'));
+
+      //AJEITAR FECHO
+
+      String query_left= "INSERT INTO paths (id_car,geom) VALUES (";
+      String query_middle= ",ST_GeomFromText('GEOMETRYCOLLECTION(";
+      String query_right= ")'));";
+      String paths= "";
+      String path= "";
+
+      Boolean first_line=true;
+
+      for(String s: file){
+
+          //System.out.println(path);
+
+          words = s.split(" ");
+          if(words[0].equals(":break:")){
+              start_path=true;
+              if(!paths.equals("")){
+                  if(first_line){
+                      first_line = false;
+                  }else{
+                      //paths += ")),";
+                  }
+              }
+              if(!paths.equals("")){
+                  paths+= ")),";
+              }
+              String[] point_counter = path.split(" ");
+              int bla = point_counter.length;
+              if(bla == 2){
+                  path = path.replaceAll("MULTILINESTRING", "POINT");
+              }
+              paths += path;
+          }else{
+              if(start_path){
+                  start_path = false;
+                  path="MULTILINESTRING((";
+                  path+= words[2]+" "+words[1];
+              }else{
+                  path+= ","+words[2]+" "+words[1];
+              }
+          }
+      }
+
+      //System.out.println(paths);
+      //System.out.println(path);
+      if(!paths.equals("")){
+          paths+= ")),";
+      }
+      paths+= path;
+      paths+= "))";
+      paths = paths.replaceAll("(POINT)", "POINT");
+      //System.out.println(paths);
+      //System.out.println(query_middle + paths);
+
+      return (query_left + i + query_middle + paths + query_right);
+      }
