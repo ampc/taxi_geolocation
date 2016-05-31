@@ -1,11 +1,11 @@
-62 //numero de praças
-               # Replace Windows newlines with Unix newlines1 //id praça
-               # Replace Windows newlines with Unix newlinesAGRA //nome
-               # Replace Windows newlines with Unix newlines-8.6094 41.177231 //local praça
-               # Replace Windows newlines with Unix newlines2 //numero de lugares
-               # Replace Windows newlines with Unix newlines-8.6096702714 41.1771457135 //local lugar
+62
+               # Replace Windows newlines with Unix newlines1
+               # Replace Windows newlines with Unix newlinesAGRA
+               # Replace Windows newlines with Unix newlines-8.6094 41.177231
+               # Replace Windows newlines with Unix newlines2
+               # Replace Windows newlines with Unix newlines-8.6096702714 41.1771457135
                # Replace Windows newlines with Unix newlines-8.60940886312 41.177208622
-               # Replace Windows newlines with Unix newlines2 //numero de lugares
+               # Replace Windows newlines with Unix newlines2
                # Replace Windows newlines with Unix newlines-8.60923597217 41.1773039453
                # Replace Windows newlines with Unix newlines-8.61014948509 41.1770918315
                # Replace Windows newlines with Unix newlines2
