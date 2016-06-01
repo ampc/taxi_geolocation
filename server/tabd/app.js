@@ -8,8 +8,8 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
-var pgp = require('pg-promise')();
-var db = pgp("postgres://antonio@localhost:5432/trabalho_tabd")
+//var pgp = require('pg-promise')();
+//var db = pgp("postgres://antonio@localhost:5432/trabalho_tabd")
 
 
 var app = express();
@@ -19,15 +19,14 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 
-
-db.any("SELECT * from posturas where name=$1",'RIBEIRA')
+/*db.any("SELECT name, ST_AsGeoJSON(local_post) from posturas where name=$1",'RIBEIRA')
 	.then(function (data){
 		console.log(data);
 	})
 	.catch(function(data){
 			console.log("ERROR:BD");
 	});
-
+*/
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
