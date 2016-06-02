@@ -30,13 +30,38 @@ function displayLocation( position ) {
     var latitude = position.coords.latitude;
     var longitude = position.coords.longitude;
     var send = latitude + "," + longitude;
+		var myLatLng = {lat: latitude, lng: longitude};
     console.log(latitude + "," + longitude);
-    fetchClosestBus(send);
+		addYourMarker(myLatLng);
+		fetchClosestBus(send);
 }
+
+function fetchCentroid(){
+    var xmlhttp = new XMLHttpRequest();
+    var url = "http://localhost:3000/api/centroid/";
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            var str = xmlhttp.responseText;
+            //console.log(str);
+            var obj = JSON.parse(str);
+            //[ POINT(A B)]
+            var tmp = obj[0].st_astext;
+            tmp = tmp.replace(/[{()}]/g, '');
+            tmp = tmp.replace('POINT', '');
+            var coords = tmp.split(' ');
+            var myLatLng = {lat: Number(coords[0]), lng: Number(coords[1])};
+            //console.log(coords[0] + coords[1]);
+            addCentroidMarker(myLatLng);
+        }
+    };
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
+}
+
 
 function fetchClosestBus(locat){
     var xmlhttp = new XMLHttpRequest();
-    var url = "http://tazdingo.mooo.com:3000/api/nearest/" + locat;
+    var url = "http://localhost:3000/api/nearest/" + locat;
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             var str = xmlhttp.responseText;
@@ -54,7 +79,6 @@ function fetchClosestBus(locat){
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
-
 
 
 // Adds a marker to the map and push to the array.
@@ -86,6 +110,25 @@ function addNearestBusMarker(location, var_name) {
     markers.push(marker);
 }
 
+function addCentroidMarker(location) {
+    var marker = new google.maps.Marker({
+        position: location,
+        map: map,
+        title: "Centro das praças",
+        icon:"http://maps.google.com/mapfiles/ms/micons/grey.png"
+    });
+    markers.push(marker);
+}
+
+function addYourMarker(location) {
+    var marker = new google.maps.Marker({
+        position: location,
+        map: map,
+        title: "Sua posição",
+        icon:"http://maps.google.com/mapfiles/ms/micons/man.png"
+    });
+    markers.push(marker);
+}
 // Sets the map on all markers in the array.
 function setMapOnAll(map) {
     for (var i = 0; i < markers.length; i++) {
@@ -129,7 +172,7 @@ function posturas(){
 
 function posturasMarkers(id){
     var xmlhttp = new XMLHttpRequest();
-    var url = "http://tazdingo.mooo.com:3000/api/posturas/" + id;
+    var url = "http://localhost:3000/api/posturas/" + id;
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             var post_lat, post_lng;
@@ -223,7 +266,7 @@ function autoRefresh(map, pathCoords) {
 
 function popo(id){
     var xmlhttp = new XMLHttpRequest();
-    var url = "http://tazdingo.mooo.com:3000/api/paths/" + id;
+    var url = "http://localhost:3000/api/paths/" + id;
     var coord_array = [];
 
     xmlhttp.onreadystatechange = function() {
@@ -254,7 +297,7 @@ function popo(id){
 
 function generatePathList(){
     var xmlhttp = new XMLHttpRequest();
-    var url = "http://tazdingo.mooo.com:3000/api/paths/";
+    var url = "http://localhost:3000/api/paths/";
     var obj;
     var array = [];
     xmlhttp.onreadystatechange = function() {
@@ -283,9 +326,67 @@ function generatePathList(){
     xmlhttp.send();
 }
 
+function generatePracaList(){
+    var xmlhttp = new XMLHttpRequest();
+    var url = "http://localhost:3000/api/posturas/";
+    var obj;
+    var array = [];
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            var str = xmlhttp.responseText;
+            //console.log(str);
+            obj = JSON.parse(str);
+            //console.log(obj);
+            for (var k in obj){
+                //console.log(obj[k].id_car);
+                array.push(obj[k].name);
+            }
+        }
+        //console.log(array);
+        var praca = document.getElementById("pracas");
+				var praca2 = document.getElementById("pracas2");
+        for (var i in array){
+            var option = document.createElement('option');
+            option.innerHTML = array[i];
+            option.setAttribute("value", array[i]);
+						var option2 = document.createElement('option');
+            option2.innerHTML = array[i];
+            option2.setAttribute("value", array[i]);
+
+            praca.appendChild(option);
+						praca2.appendChild(option2);
+
+        }
+    };
+
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
+}
+
+function pracasDist(){
+	var praca = document.getElementById("pracas").value;
+	var praca2 = document.getElementById("pracas2").value;
+	var xmlhttp = new XMLHttpRequest();
+	var url = "http://localhost:3000/api/paths/" + id;
+	var coord_array = [];
+
+	xmlhttp.onreadystatechange = function() {
+			if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+					var str = xmlhttp.responseText;
+					console.log(str);
+					var obj = JSON.parse(str);
+
+
+			}
+	};
+	xmlhttp.open("GET", url, true);
+	xmlhttp.send();
+}
+
+
 function mapQueryPath(id){
     var xmlhttp = new XMLHttpRequest();
-    var url = "http://tazdingo.mooo.com:3000/api/paths/" + id;
+    var url = "http://localhost:3000/api/paths/" + id;
     var coord_array = [];
 
     xmlhttp.onreadystatechange = function() {

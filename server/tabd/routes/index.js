@@ -155,4 +155,55 @@ router.get('/api/nearest/:coords',function (req,res) {
 	})
 });
 
+
+router.get('/api/centroid',function (req,res) {
+	var results =[];
+	pg.connect(connectionString, function (err,client,done) {
+		if(err){
+			done();
+			console.log(err);
+			return res.status(500).json({success:false, data:err});
+		}
+
+		var query = client.query("select ST_AsText(ST_Centroid(ST_Union(ST_GeomFromText(ST_asText(local_post))))) from posturas;");
+		console.log(query);
+		query.on('row',function (row) {
+			results.push(row);
+
+		});
+
+		query.on('end',function(row){
+			done();
+			return res.json(results);
+		});
+
+	})
+});
+
+/*router.get('/api/distance/:praca1',function (req,res) {
+	var results =[];
+	var praca1 = req.params.praca1;
+	//var praca2 = req.params.praca2;
+	pg.connect(connectionString, function (err,client,done) {
+		if(err){
+			done();
+			console.log(err);
+			return res.status(500).json({success:false, data:err});
+		}
+
+		var query = client.query("select st_distance(a.local_post, b.local_post)/1000 AS distance_km from posturas a, posturas b where a.name=($1) and b.name=($1));",[praca1]);
+
+		query.on('row',function (row) {
+			results.push(row);
+
+		});
+
+		query.on('end',function(row){
+			done();
+			return res.json(results);
+		});
+
+	})
+});*/
+
 module.exports = router;
