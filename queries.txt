@@ -1,4 +1,4 @@
-//1 - Retorna as praças que se encontram a <1km de distancia do DCC
+//1 - Retorna o nome das 10 praças e a distancia  das que se encontram a <1km de distancia do DCC
 
 SELECT name, st_distance(local_post, dcc)/1000 AS distance_km
 FROM posturas,
@@ -14,7 +14,7 @@ from posturas a, posturas b where a.name='AMIAL' AND b.name='RIBEIRA';
 
 //3 - Retorna o trajeto 133 em formato GeoJSON
 
-SELECT ST_AsGeoJSON(geom) from paths where id_car=133;
+SELECT ST_AsGeoJSON(geom) from paths where id_car=258;
 
 
 //4 - Retorna a data inicial e final do trajeto 101
@@ -22,9 +22,9 @@ SELECT ST_AsGeoJSON(geom) from paths where id_car=133;
 Select paths.id_car,timestamps from paths_timestamps inner join paths on paths.id_car=paths_timestamps.id_car where paths.id_car=101;
 
 
-//5 - Retorna ponto com as coordenadas do centroide da localização das praças de taxis
+//5 - Retorna ponto com as coordenadas do centroide em relação localização das praças de taxis
 
 select ST_AsText(ST_Centroid(ST_Union(ST_GeomFromText(ST_asText(local_post)))))
 from posturas;
 
-//6 -
+//6 - Retorna

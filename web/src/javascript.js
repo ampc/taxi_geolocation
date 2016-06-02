@@ -367,9 +367,9 @@ function pracasDist(){
 	var praca = document.getElementById("pracas").value;
 	var praca2 = document.getElementById("pracas2").value;
 	var xmlhttp = new XMLHttpRequest();
-	var url = "http://localhost:3000/api/paths/" + id;
+	var url = "http://localhost:3000/api/distance/" + praca +"/"+praca2;
 	var coord_array = [];
-
+	console.log(url);
 	xmlhttp.onreadystatechange = function() {
 			if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
 					var str = xmlhttp.responseText;

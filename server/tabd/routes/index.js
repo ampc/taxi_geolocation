@@ -8,6 +8,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+//GET path(id,geom) from table paths
 router.get('/api/paths/:id_car',function (req,res) {
 	var results =[];
 	var id = req.params.id_car;
@@ -32,7 +33,7 @@ router.get('/api/paths/:id_car',function (req,res) {
 
 	})
 });
-
+//GET all timestamps related with id_car
 router.get('/api/paths/timestamps/:id_car',function (req,res) {
 	var results =[];
 	var id = req.params.id_car;
@@ -57,6 +58,8 @@ router.get('/api/paths/timestamps/:id_car',function (req,res) {
 
 	})
 });
+
+//GET all paths
 router.get('/api/paths/',function (req,res) {
 	var results =[];
 	pg.connect(connectionString, function (err,client,done) {
@@ -80,6 +83,8 @@ router.get('/api/paths/',function (req,res) {
 
 	})
 });
+
+//GET posturas
 router.get('/api/posturas/',function (req,res) {
 	var results =[];
 	pg.connect(connectionString, function (err,client,done) {
@@ -103,7 +108,7 @@ router.get('/api/posturas/',function (req,res) {
 
 	})
 });
-//comeca em 1
+//GET posturas name,local praça, locais acesso
 router.get('/api/posturas/:id_post',function (req,res) {
 	var results =[];
 	var id_post = req.params.id_post
@@ -129,7 +134,7 @@ router.get('/api/posturas/:id_post',function (req,res) {
 	})
 });
 
-
+//GET nearest praça to current location(:coords)
 router.get('/api/nearest/:coords',function (req,res) {
 	var results =[];
 	var coords = req.params.coords;
@@ -155,7 +160,7 @@ router.get('/api/nearest/:coords',function (req,res) {
 	})
 });
 
-
+//GET centroid o
 router.get('/api/centroid',function (req,res) {
 	var results =[];
 	pg.connect(connectionString, function (err,client,done) {
@@ -180,10 +185,13 @@ router.get('/api/centroid',function (req,res) {
 	})
 });
 
-/*router.get('/api/distance/:praca1',function (req,res) {
+router.get('/api/distance/:praca1/:praca2/',function (req,res) {
 	var results =[];
+	console.log(req.params);
 	var praca1 = req.params.praca1;
-	//var praca2 = req.params.praca2;
+	console.log(praca1);
+	var praca2 = req.params.praca2;
+	console.log(praca2);
 	pg.connect(connectionString, function (err,client,done) {
 		if(err){
 			done();
@@ -191,8 +199,8 @@ router.get('/api/centroid',function (req,res) {
 			return res.status(500).json({success:false, data:err});
 		}
 
-		var query = client.query("select st_distance(a.local_post, b.local_post)/1000 AS distance_km from posturas a, posturas b where a.name=($1) and b.name=($1));",[praca1]);
-
+		var query = client.query("select st_distance(a.local_post, b.local_post)/1000 AS distance_km from posturas a, posturas b where a.name='"+praca1+"' and b.name='"+praca2+"';");
+		console.log(query);
 		query.on('row',function (row) {
 			results.push(row);
 
@@ -204,6 +212,6 @@ router.get('/api/centroid',function (req,res) {
 		});
 
 	})
-});*/
+});
 
 module.exports = router;

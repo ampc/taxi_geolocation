@@ -1,51 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <HEAD>
-        <title>TABD Grupo 10</title>
-        <meta name="viewport" content="initial-scale=1.0">
-        <meta charset="utf-8">
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="src/style.css">
-        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-        <script src="src/jquery-1.12.3.min.js"></script>
-        <script src="src/javascript.js"></script>
-        <script>
-            window.onload = function(){
-                generatePathList();
-                initMap();
-            }
-        </script>
-    </HEAD>
-    <body>
-        <div id="navbar">
-            <div id="navleft">
-                <h3> Tópicos Avançados de Base de Dados </h3>
-            </div>
-        </div>
-        <div id="map"> </div>
-        <div id="infobar">
-          <div id="percurso">
-            <p>Escolher percurso:<p>
-            <div class="select" >
-            <select button class="btn btn-default dropdown-toggle" id="path" onChange="run(this)">
-            </select>
-          </div>
-        </div>
-        <div id="check">
-            <input type="checkbox" id="postura" class="regular-checkbox" onchange=posturas() />Mostrar praças
-            <label for="postura"></label>
-            <input type="checkbox" id="animar" class="regular-checkbox"/>Animar Percurso
-            <label for="animar"></label>
-          </div>
-          <div id="query">
-							<button class="btn btn-primary" onClick="getLocation()">Praça mais próxima <span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span></button>
-							<button class="btn btn-primary" onClick="fetchCentroid()">Centro das praças <span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span></button>
-        </div>
+<HEAD>
+	<title>TABD Grupo 10</title>
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="src/style.css">
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script src="src/jquery-1.12.3.min.js"></script>
+	<script src="src/javascript.js"></script>
+	<script>
+	window.onload = function(){
+		generatePathList();
+		generatePracaList();
+		initMap();
+	}
+	</script>
+</HEAD>
+<body>
+	<div id="navbar">
+		<div id="navleft">
+			<h4> Tópicos Avançados de Base de Dados </h4>
+		</div>
+	</div>
+	<div id="map"> </div>
+	<div id="infobar">
+		<div id="percurso">
+			<h3>Seleccionar Percurso:</h3>
+			<p>Escolher percurso:<p>
+				<div class="select" >
+					<select button class="btn btn-default dropdown-toggle" id="path" onChange="run(this)">
+					</select>
+				</div>
+			</div>
+			<div id="check">
+				<h3>Opções</h3>
+				<input type="checkbox" id="postura" class="regular-checkbox" onchange=posturas() />Mostrar praças
+				<label for="postura"></label>
+				<input type="checkbox" id="animar" class="regular-checkbox"/>Animar Percurso
+				<label for="animar"></label>
+			</div>
+			<div id="query">
+				<h3>Funções</h3>
+				<button class="btn btn-primary" onClick="getLocation()">Praça mais próxima <span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span></button>
+				<button class="btn btn-primary" onClick="fetchCentroid()">Centroide das praças <span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span></button>
+				<h3>Distancia entre praças:</h3>
+				<div id="distancias">
+					<p>Praça 1</p>
+					<select button class="btn btn-default dropdown-toggle" id="pracas" onChange="run(this)">
+					</select>
+					<p>Praça 2</p>
+					<select button class="btn btn-default dropdown-toggle" id="pracas2" onChange="run(this)">
+					</select>
+				</div>
+			</div>
 
-        <div>
-        </div>
-      </div>
-        </div>
-        <script src="https://maps.googleapis.com/maps/api/js?key=***REMOVED***&callback=initMap" async defer></script>
-    </body>
+		</div>
+	</div>
+	<script src="https://maps.googleapis.com/maps/api/js?key=***REMOVED***&callback=initMap" async defer></script>
+</body>
 </html>

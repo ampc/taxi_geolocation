@@ -3,7 +3,7 @@ var connectionString = process.env.DATABASE_URK || 'postgres://localhost:5432/tr
 
 var client = new pg.Client(connectionString);
 client.connect();
-
+//test
 var query = client.query('SELECT NOW() AS "theTime"');
 query.on('end',function () {
 	client.end();
