@@ -13,8 +13,6 @@ geomcollection(multline(),multine,...)
 posturas
 id_praça nome_praça geom(long lat)
 
-
-
 queries:
 tabelas:
 paths
@@ -24,7 +22,6 @@ paths_timestamps
 id_car timestamps(texto)
 
 //json
-
 SELECT ST_AsGeoJSON(geom) from paths;
 
 {"type":"GeometryCollection","geometries":[{"type":"MultiLineString","coordinates":[[[-71.160281,42.258729],[-71.160837,42.259113],[-71.161144,42.25932]]]},{"type":"MultiLineString","coordinates":[[[-71.160281,42.258729],[-71.160837,42.259113],[-71.161144,42.25932]]]}]}

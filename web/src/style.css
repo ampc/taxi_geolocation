@@ -1,28 +1,91 @@
 html {
     height: 100%;
     width: 100%;
+    background-color:#707070 ;
+    font-family: verdana;
+    color: #700000 ;
 }
 
 body {
     min-height: 100%;
     width: 100%;
     margin: 0;
+    overflow:hidden;
+}
+
+#navright .button{
+  background-color: green;
 }
 
 #navbar{
-    background-color: darkgray;
+    vertical-align: middle;
+    background-color: grey;
     width: 100%;
-    height: 35px;
+    height: 50px;
 }
 
+#navleft{
+  color: white;
+  width:500px;
+  height: 35px;
+  float: left;
+  margin-left: 15px;
+}
+
+
+#infobar2{
+  float: right;
+}
 #map {
-    background-color: whitesmoke;
-    height: calc(100vh - 135px);
-    width: 100vw;
+    float: right;
+    height: 100%;
+    width: 60vw;
 }
 
-#infobar{
-    background-color: darkgray;
+body{
     width: 100%;
-    height: 100px;
+    height: 100%;
+    font-size: 14px;
+  min-height: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+#percurso{
+  margin-top:100px;
+  margin-left:70px;
+}
+#check{
+  margin-left:70px;
+  margin-top: 70px;
+}
+#query{
+  margin-left:70px;
+  margin-top: 70px;
+}
+select {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: grey;
+    color:white;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
 }

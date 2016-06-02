@@ -5,24 +5,50 @@
         <meta name="viewport" content="initial-scale=1.0">
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="src/style.css">
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
         <script src="src/jquery-1.12.3.min.js"></script>
         <script src="src/javascript.js"></script>
+        <script>
+            window.onload = function(){
+                generatePathList();
+                initMap();
+            }
+        </script>
     </HEAD>
     <body>
         <div id="navbar">
-            <button onclick="addMarker()">fuck</button>
+            <div id="navleft">
+                <h3> Tópicos Avançados de Base de Dados </h3>
+            </div>
         </div>
         <div id="map"> </div>
-        <div id="infobar"> </div>
-        <script>
-            var map;
-            function initMap() {
-                map = new google.maps.Map(document.getElementById('map'), {
-                  center: {lat: 41.157944, lng: -8.629105},
-                  zoom: 8
-                });
-            }
-        </script>
+        <div id="infobar">
+          <div id="percurso">
+            <p>Escolher percurso:<p>
+            <div class="select">
+            <select id="path" onChange="run(this)">
+            </select>
+          </div>
+        </div>
+        <div id="check">
+            <input type="checkbox" id="postura" class="regular-checkbox" onchange=posturas() />Mostrar praças
+            <label for="postura"></label>
+            <input type="checkbox" id="animar" class="regular-checkbox"/>Animar Percurso
+            <label for="animar"></label>
+          </div>
+          <div id="query">
+          <p> Queries extra: </p>
+          <select>
+            <option>Query 1</option>
+            <option>The second option</option>
+            <option>The third option</option>
+          </select>
+        </div>
+        <div>
+            <button onClick="getLocation()">pressme</button>
+        </div>
+      </div>
+        </div>
         <script src="https://maps.googleapis.com/maps/api/js?key=***REMOVED***&callback=initMap" async defer></script>
     </body>
 </html>
