@@ -372,17 +372,20 @@ function pracasDist(){
 	console.log(url);
 	xmlhttp.onreadystatechange = function() {
 			if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-					var str = xmlhttp.responseText;
+					var str = xmlhttp.response;
 					console.log(str);
 					var obj = JSON.parse(str);
-
-
+					var distance = obj[0].distance_km;
+					writeDist(distance);
 			}
 	};
 	xmlhttp.open("GET", url, true);
 	xmlhttp.send();
 }
-
+function writeDist(dist) {
+    var tmp = document.getElementById("dist").innerHTML = "";
+		tmp =  document.getElementById("dist").innerHTML=dist+" km";
+}
 
 function mapQueryPath(id){
     var xmlhttp = new XMLHttpRequest();

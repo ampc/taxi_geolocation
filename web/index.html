@@ -44,13 +44,13 @@
 				<h3>Funções</h3>
 				<button class="btn btn-primary" onClick="getLocation()">Praça mais próxima <span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span></button>
 				<button class="btn btn-primary" onClick="fetchCentroid()">Centroide das praças <span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span></button>
-				<h3>Distancia entre praças:</h3>
+				<h3>Distancia entre praças: <p id="dist"></p></h3>
 				<div id="distancias">
 					<p>Praça 1</p>
-					<select button class="btn btn-default dropdown-toggle" id="pracas" onChange="run(this)">
+					<select button class="btn btn-default dropdown-toggle" id="pracas">
 					</select>
 					<p>Praça 2</p>
-					<select button class="btn btn-default dropdown-toggle" id="pracas2" onChange="run(this)">
+					<select button class="btn btn-default dropdown-toggle" id="pracas2" onChange="pracasDist()">
 					</select>
 				</div>
 			</div>
