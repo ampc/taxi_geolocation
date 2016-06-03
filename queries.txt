@@ -27,4 +27,11 @@ Select paths.id_car,timestamps from paths_timestamps inner join paths on paths.i
 select ST_AsText(ST_Centroid(ST_Union(ST_GeomFromText(ST_asText(local_post)))))
 from posturas;
 
-//6 - Retorna
+//6 - Retorna numero de praças que estão a 1km de distancia do ponto dado(dcc)
+SELECT COUNT(*) from
+(SELECT name, st_distance(local_post, dcc)/1000 AS distance_km
+FROM posturas,
+  (select ST_MakePoint(41.1517527,-8.6364688)::geography as dcc) as dcc
+WHERE ST_DWithin(local_post, dcc, 1000)
+ORDER BY ST_Distance(local_post, dcc)
+LIMIT 10) as foo;
