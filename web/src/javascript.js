@@ -38,7 +38,7 @@ function displayLocation( position ) {
 
 function fetchCentroid(){
     var xmlhttp = new XMLHttpRequest();
-    var url = "http://localhost:3000/api/centroid/";
+    var url = "http://tazdingo.mooo.com:3000/api/centroid/";
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             var str = xmlhttp.responseText;
@@ -61,7 +61,7 @@ function fetchCentroid(){
 
 function fetchClosestBus(locat){
     var xmlhttp = new XMLHttpRequest();
-    var url = "http://localhost:3000/api/nearest/" + locat;
+    var url = "http://tazdingo.mooo.com:3000/api/nearest/" + locat;
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             var str = xmlhttp.responseText;
@@ -172,7 +172,7 @@ function posturas(){
 
 function posturasMarkers(id){
     var xmlhttp = new XMLHttpRequest();
-    var url = "http://localhost:3000/api/posturas/" + id;
+    var url = "http://tazdingo.mooo.com:3000/api/posturas/" + id;
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             var post_lat, post_lng;
@@ -266,7 +266,7 @@ function autoRefresh(map, pathCoords) {
 
 function popo(id){
     var xmlhttp = new XMLHttpRequest();
-    var url = "http://localhost:3000/api/paths/" + id;
+    var url = "http://tazdingo.mooo.com:3000/api/paths/" + id;
     var coord_array = [];
 
     xmlhttp.onreadystatechange = function() {
@@ -297,7 +297,7 @@ function popo(id){
 
 function generatePathList(){
     var xmlhttp = new XMLHttpRequest();
-    var url = "http://localhost:3000/api/paths/";
+    var url = "http://tazdingo.mooo.com:3000/api/paths/";
     var obj;
     var array = [];
     xmlhttp.onreadystatechange = function() {
@@ -328,7 +328,7 @@ function generatePathList(){
 
 function generatePracaList(){
     var xmlhttp = new XMLHttpRequest();
-    var url = "http://localhost:3000/api/posturas/";
+    var url = "http://tazdingo.mooo.com:3000/api/posturas/";
     var obj;
     var array = [];
     xmlhttp.onreadystatechange = function() {
@@ -367,7 +367,7 @@ function pracasDist(){
 	var praca = document.getElementById("pracas").value;
 	var praca2 = document.getElementById("pracas2").value;
 	var xmlhttp = new XMLHttpRequest();
-	var url = "http://localhost:3000/api/distance/" + praca +"/"+praca2;
+	var url = "http://tazdingo.mooo.com:3000/api/distance/" + praca +"/"+praca2;
 	var coord_array = [];
 	console.log(url);
 	xmlhttp.onreadystatechange = function() {
@@ -389,7 +389,7 @@ function writeDist(dist) {
 
 function mapQueryPath(id){
     var xmlhttp = new XMLHttpRequest();
-    var url = "http://localhost:3000/api/paths/" + id;
+    var url = "http://tazdingo.mooo.com:3000/api/paths/" + id;
     var coord_array = [];
 
     xmlhttp.onreadystatechange = function() {
