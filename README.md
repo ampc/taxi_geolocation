@@ -22,12 +22,15 @@ Read: `queries.txt` (**in portuguese**)
 
 
 
-
+___
 
 Made with: GoogleMaps API, PostgresSQL, Express.js
 
 
-
+___
 António Carvalho
+
 Inês Maia
+
 Paulo Leal
+
