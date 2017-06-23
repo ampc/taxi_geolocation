@@ -10,6 +10,7 @@ id_car  multiline(line(long, lat),line(long, lat))
 
 geomcollection(multline(),multine,...)
 
+
 posturas
 id_praça nome_praça geom(long lat)
 
@@ -39,3 +40,5 @@ Select paths.id_car,paths.geom,timestamps  from paths_timestamps inner join path
 
 //insert posturas
 INSERT INTO posturas (id_post,name,local_post,lugares_post)  values (1,'AGRA',ST_GeomFromText('POINT(41.177231 -8.6094)'),ST_GeomFromText('MULTILINESTRING((41.177145135 -8.6096702714, 41.177208622 -8.60940886312),(41.1773039453 -8.60923597217, 41.1770918315 -8.61014948509))'));
+
+ok
